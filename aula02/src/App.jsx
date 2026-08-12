@@ -17,14 +17,16 @@ export default function App(){
         <Exemplo1 numero1={9.5} numero2={3} /> 
       </div>
 
-      div className="card">
+      <div className="card">
+
         <h3>Chamadas para o Exemplo2</h3>
 
         <Exemplo2 nome="marcio" idade={19} />
         <hr />
-        <Exemplo2 nome="DAVI" idade={25} />
+        <Exemplo2 nome="Davi" idade={25} />
         <hr />
         <Exemplo2 nome="guilherme" idade={45} /> 
+        </div>
     </div>
     
   );
