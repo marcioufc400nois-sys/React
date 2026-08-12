@@ -1,0 +1,21 @@
+body {
+  padding:0;
+  margin: 0;
+}
+
+h1 {
+  background-color: #960000;
+  color:white;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+.card {
+  background-color: #E2E2E2;
+  padding: 20px;
+  width: 500px;
+  border-radius: 10px;
+  margin: 20px auto; 
+  
+}
