@@ -34,16 +34,26 @@ export default function Consulta() {
            <tr>
             <th>Nome</th>
             <th>Cidade</th>
-            <th>Estado</th>         
+            <th>Estado</th>
+            <th></th>       
            </tr>
 
            {alunos.map(
 
               (aluno) => (
-                <tr>
+                  <tr key = {aluno.codigo}>
                   <td>{aluno.nome}</td>
                   <td>{aluno.cidade}</td>
                   <td>{aluno.estado}</td>
+
+                 <td>
+
+                     <Link to={"/visualizar/" + aluno.codigo}>Visualizar</Link> 
+              
+                  </td> 
+                      
+
+                 
                 </tr>
               )
            )}
